@@ -11,4 +11,7 @@ about: 申请加入翻译组
 5. 从何处了解到伯乐在线翻译组/为何加入：
 6. 简单自我介绍：
 -----------
-提交issue后，请发送issue链接到hanxiaomax@qq.com领取试译文章
+
+ps: 提交issue后，请发送issue链接到hanxiaomax@qq.com领取试译文章
+
+@hanxiaomax
