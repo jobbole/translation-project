@@ -1,0 +1,16 @@
+prose:
+  rooturl: 'translation'
+  siteurl: 
+  media: 'translation/imgs'
+  ignore:
+    - _prose.yml
+  metadata:
+    translation:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "editor"
+        field:
+          element: "text"
+          value: CURRENT_USER
