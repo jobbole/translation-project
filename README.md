@@ -16,5 +16,8 @@
 
 和我们志同道合？赶快[申请加入](https://github.com/jobbole/translation-warehouse/issues/new?title=%E8%AF%91%E8%80%85%E7%94%B3%E8%AF%B7&labels=M-Apply&assignees=hanxiaomax&template=application.md)我们吧！
 
+# 流程介绍及操作指南
+详见[wiki](https://github.com/jobbole/translation-warehouse/wiki)
+
 # Copyright
 版权声明：伯乐在线翻译组翻译的译文仅用于学习、研究和交流。版权归伯乐在线、文章作者和译者所有。译文将首发于伯乐在线，转载前请联系译者或管理员获取授权，并在文章开头明显位置注明英文原文、伯乐在线译文链接、译者、校对者，违者必究。
