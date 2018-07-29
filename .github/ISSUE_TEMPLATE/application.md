@@ -16,6 +16,7 @@ about: 申请加入翻译组
 7. 简单自我介绍：
 
 
+
 -----------
 
 ps: 提交issue后，请发送issue链接到hanxiaomax@qq.com领取试译文章
