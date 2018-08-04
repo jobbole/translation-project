@@ -21,5 +21,16 @@
 # 流程介绍及操作指南
 详见[wiki](https://github.com/jobbole/translation-warehouse/wiki)
 
+
+#  Contributors
+
+[<img alt="hanxiaomax" src="https://avatars1.githubusercontent.com/u/3370445?v=4&s=50" style="width:50px;border-radius:50px">](https://github.com/hanxiaomax) |[<img alt="kele1997" src="https://avatars2.githubusercontent.com/u/24707678?v=4&s=50" style="width:50px;border-radius:50px">](https://github.com/kele1997) |
+:---: |:---: |
+[hanxiaomax](https://github.com/hanxiaomax) |[kele1997](https://github.com/kele1997) |
+
+
+
+
+
 # Copyright
 版权声明：伯乐在线翻译组翻译的译文仅用于学习、研究和交流。版权归伯乐在线、文章作者和译者所有。译文将首发于伯乐在线，转载前请联系译者或管理员获取授权，并在文章开头明显位置注明英文原文、伯乐在线译文链接、译者、校对者，违者必究。
