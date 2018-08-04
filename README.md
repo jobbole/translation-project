@@ -21,7 +21,7 @@
 [![](https://img.shields.io/badge/1.-项目地址-blue.svg?longCache=true&style=popout)](https://github.com/jobbole/translation-project)
 [![](https://img.shields.io/badge/2.-帮助文档-blue.svg?longCache=true&style=popout)](https://github.com/jobbole/translation-project/wiki)
 [![](https://img.shields.io/badge/3.-视频教程-blue.svg?longCache=true&style=popout)](https://www.bilibili.com/video/av27999596/)
-[![](https://img.shields.io/badge/4.-待翻译文章-blue.svg?longCache=true&style=popout)](https://github.com/jobbole/translation-project/issues)
+[![](https://img.shields.io/badge/4.-待翻译文章-blue.svg?longCache=true&style=popout)](https://github.com/jobbole/translation-project/issues?q=is%3Aopen+is%3Aissue+label%3A%22B1-To+do%22)
 [![](https://img.shields.io/badge/5.-waffle看板-blue.svg?longCache=true&style=popout)](https://waffle.io/jobbole/translation-warehouse)
 [![](https://img.shields.io/badge/6.-问题反馈-blue.svg?longCache=true&style=popout)](https://github.com/jobbole/translation-playground)
 
