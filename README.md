@@ -5,7 +5,7 @@
 
 
 
-# 关于我们 
+## 关于我们 
 
 伯乐翻译小组([原版地址](http://fanyi.jobbole.com/))由数百名译者组成，立志翻译传播优秀的外文文章，为国内的IT/互联网同行带来有价值的内容。
 
@@ -25,7 +25,7 @@
 [![](https://img.shields.io/badge/5.-waffle看板-blue.svg?longCache=true&style=popout)](https://waffle.io/jobbole/translation-warehouse)
 [![](https://img.shields.io/badge/6.-问题反馈-blue.svg?longCache=true&style=popout)](https://github.com/jobbole/translation-playground)
 
-#  Contributors
+##  Contributors
 
 [<img alt="hanxiaomax" src="https://avatars1.githubusercontent.com/u/3370445?v=4&s=50" style="width:50px;border-radius:50px">](https://github.com/hanxiaomax) |[<img alt="kele1997" src="https://avatars2.githubusercontent.com/u/24707678?v=4&s=50" style="width:50px;border-radius:50px">](https://github.com/kele1997) |
 :---: |:---: |
@@ -35,5 +35,5 @@
 
 
 
-# Copyright
+## Copyright
 版权声明：伯乐在线翻译组翻译的译文仅用于学习、研究和交流。版权归伯乐在线、文章作者和译者所有。译文将首发于伯乐在线，转载前请联系译者或管理员获取授权，并在文章开头明显位置注明英文原文、伯乐在线译文链接、译者、校对者，违者必究。
