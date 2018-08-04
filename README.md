@@ -1,11 +1,9 @@
-# 伯乐在线翻译小组
+# 伯乐在线翻译小组[![](https://img.shields.io/badge/网站-伯乐在线-blue.svg?longCache=true&style=plastic)](http://www.jobbole.com/)[![](https://img.shields.io/badge/weibo-@伯乐在线-blue.svg?longCache=true&style=plastic)](https://weibo.com/jobbole)
 
 
-[![](https://img.shields.io/badge/看板-waffle-blue.svg?longCache=true&style=plastic)](https://waffle.io/jobbole/translation-warehouse)
-[![](https://img.shields.io/badge/网站-伯乐在线-blue.svg?longCache=true&style=plastic)](http://www.jobbole.com/)
-[![](https://img.shields.io/badge/weibo-@伯乐在线-blue.svg?longCache=true&style=plastic)](https://weibo.com/jobbole)
 
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/jobbole/translation-warehouse.svg?columns=all)](https://waffle.io/jobbole/translation-warehouse)
+
+
 
 # 关于我们 
 
@@ -16,11 +14,16 @@
 
 2018，伯乐在线翻译组将在 Github 继续它的征程～～
 
-和我们志同道合？赶快[申请加入](https://github.com/jobbole/translation-warehouse/issues/new?title=%E8%AF%91%E8%80%85%E7%94%B3%E8%AF%B7&labels=M-Apply&assignees=hanxiaomax&template=application.md)我们吧！
+和我们志同道合？赶快[![](https://img.shields.io/badge/click-申请加入-green.svg?longCache=true&style=plastic)](https://github.com/jobbole/translation-playground/issues/new?title=%E8%AF%91%E8%80%85%E7%94%B3%E8%AF%B7&template=----.md)吧！
 
-# 流程介绍及操作指南
-详见[wiki](https://github.com/jobbole/translation-warehouse/wiki)
 
+## 相关链接
+[![](https://img.shields.io/badge/1.-项目地址-blue.svg?longCache=true&style=popout)](https://github.com/jobbole/translation-project)
+[![](https://img.shields.io/badge/2.-帮助文档-blue.svg?longCache=true&style=popout)](https://github.com/jobbole/translation-project/wiki)
+[![](https://img.shields.io/badge/3.-视频教程-blue.svg?longCache=true&style=popout)](https://www.bilibili.com/video/av27999596/)
+[![](https://img.shields.io/badge/4.-待翻译文章-blue.svg?longCache=true&style=popout)](https://github.com/jobbole/translation-project/issues)
+[![](https://img.shields.io/badge/5.-waffle看板-blue.svg?longCache=true&style=popout)](https://waffle.io/jobbole/translation-warehouse)
+[![](https://img.shields.io/badge/6.-问题反馈-blue.svg?longCache=true&style=popout)](https://github.com/jobbole/translation-playground)
 
 #  Contributors
 
