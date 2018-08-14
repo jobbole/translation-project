@@ -1,3 +1,10 @@
+---
+translator: http://www.jobbole.com/members/yizhe/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://dzone.com/articles/leveraging-lambda-expressions-for-lazy-evaluation
+---
+
+
 # Leveraging Lambda Expressions for Lazy Evaluation in Java
 
 # 利用 Lambda 表达式实现 Java 中的惰性求值
