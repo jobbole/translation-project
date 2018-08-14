@@ -8,14 +8,19 @@ import sys
 g = Github(sys.argv[1], sys.argv[2])
 
 REPO = "jobbole/translation-project"
-contributors = g.get_repo(REPO).get_contributors()
-prs = g.get_repo(REPO).get_pulls(state='closed',base='trans')
+repo = g.get_repo(REPO)
+contributors = repo.get_contributors()
+prs = repo.get_pulls(state='closed',base='trans')
 
 TransEvent = namedtuple('TransEvent',['title', 'url', 'type','credit'])
 Credit = namedtuple('Credit',['img','url','events'])
 
 IMAGE_STYLE = "width='30px'"
 IMAGE_SIZE = 30
+CONTRIBUTOR_IMAGE_STYLE = "width='50px'"
+CONTRIBUTOR_IMAGE_SIZE = 50
+COL_NUM = 6
+
 TRANS = 1
 REVIEW = 2
 
@@ -148,6 +153,35 @@ def build_credit_table(infos):
 
 
 
+def build_contributors_table(info):
+    table = ''
+    table_line = head_line = cell_line = "|"
+    
+    insert_table_line_flag = True
+    for index,contributor in  enumerate(repo.get_contributors()):
+        if index !=0 and  index % COL_NUM == 0:
+            head_line = cell_line = "|"
+            table += "\n"
+            if insert_table_line_flag:
+                insert_table_line_flag = False
+                table += head_line+"\n"+table_line+"\n"+cell_line
+            else :
+                table += head_line+"\n"+cell_line
+
+        name  = contributor.login
+        img = get_image_tag(name,contributor.avatar_url,CONTRIBUTOR_IMAGE_SIZE,CONTRIBUTOR_IMAGE_STYLE)
+        head_line += " {img} |".format(img=img)
+        table_line +=":---:|"
+        cell_line += "[{name}]({url}) |".format(name=name,url=contributor.html_url)
+        
+    if insert_table_line_flag:
+        insert_table_line_flag = False
+        table += head_line+"\n"+table_line+"\n"+cell_line
+    else :
+        table += head_line+"\n"+cell_line
+    return table
+
+
 def main():
     infos = collcet_info()
     print u"# 译者积分表".encode('utf-8')
@@ -155,8 +189,8 @@ def main():
     print build_artical_table(infos)
     print u"# Credits"
     print build_credit_table(infos)
-    #print _credit
-
+    print u'##  Contributors'
+    print build_contributors_table(infos)
 
 
 if __name__ == '__main__':
