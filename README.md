@@ -26,10 +26,10 @@
 [![](https://img.shields.io/badge/6.-问题反馈-blue.svg?longCache=true&style=popout)](https://github.com/jobbole/translation-playground)
 
 ##  Contributors
+| <img alt="hanxiaomax" src="https://avatars1.githubusercontent.com/u/3370445?v=4&s=50" width='50px'> | <img alt="yizheWork" src="https://avatars1.githubusercontent.com/u/10849859?v=4&s=50" width='50px'> | <img alt="huanglimin" src="https://avatars3.githubusercontent.com/u/8531908?v=4&s=50" width='50px'> | <img alt="kele1997" src="https://avatars2.githubusercontent.com/u/24707678?v=4&s=50" width='50px'> |
+|:---:|:---:|:---:|:---:|
+|[hanxiaomax](https://github.com/hanxiaomax) |[yizheWork](https://github.com/yizheWork) |[huanglimin](https://github.com/huanglimin) |[kele1997](https://github.com/kele1997) |
 
-| <img alt="hanxiaomax" src="https://avatars1.githubusercontent.com/u/3370445?v=4&s=50" width='50px'> | <img alt="kele1997" src="https://avatars2.githubusercontent.com/u/24707678?v=4&s=50" width='50px'> | <img alt="yizheWork" src="https://avatars1.githubusercontent.com/u/10849859?v=4&s=50" width='50px'> |
-|:---:|:---:|:---:|
-|[hanxiaomax](https://github.com/hanxiaomax) |[kele1997](https://github.com/kele1997) |[yizheWork](https://github.com/yizheWork) |
 
 
 
