@@ -1,8 +1,12 @@
+---
+translator: http://www.jobbole.com/members/hearingdog/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://dev.to/aershov24/11-painful-git-interview-questions-you-will-cry-on-1n2g
+---
+
 # 泪流满面的 11 个 Git 面试题
 
-[原文链接](https://dev.to/aershov24/11-painful-git-interview-questions-you-will-cry-on-1n2g)
-
-11 Painful Git Interview Questions You Will Cry On
+# 11 Painful Git Interview Questions You Will Cry On
 
 [![11 Painful Git Interview Questions and Answers You Will Cry On](https://res.cloudinary.com/practicaldev/image/fetch/s--ZdnrNCoZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://images.pexels.com/photos/929382/pexels-photo-929382.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26h%3D350)](https://res.cloudinary.com/practicaldev/image/fetch/s--ZdnrNCoZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://images.pexels.com/photos/929382/pexels-photo-929382.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26h%3D350)
 
