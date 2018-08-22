@@ -1,3 +1,9 @@
+---
+translator: http://www.jobbole.com/members/snowhere/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://dzone.com/articles/top-15-java-multithreading-concurrency-interview-q
+---
+
 # Java 面试：投行的 15 个多线程和并发面试题
 # Top 15 Java Multithreading, Concurrency Interview Questions With Investment Banks
 
