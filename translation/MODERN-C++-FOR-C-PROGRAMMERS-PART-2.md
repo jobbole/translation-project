@@ -1,16 +1,38 @@
+---
+editor: hanxiaomax
+published: false
+title: MODERN C++ FOR C PROGRAMMERS-PART-2
+---
 ## Namespaces
+## 命名空间
+
 Namespaces allow things with identical names to live side by side. This is of immediate relevance to us since C++ defines a lot of functions and classes that might collide with names you are already using in C. Because of this, the C++ libraries live in the std:: namespace, making it far easier to compile your C code as C++.
+
+命名空间保证变量可以拥有唯一到变量名。这和我们嘻嘻相关因为 C++ 定义了很多函数和类，以至于可能会有和 C 语言同名函数产生命名冲突的可能。因此 C++ 标准库被定义在`std::`命名空间中，这使得将你的 C 语言代码看作 C++ 进行编译变得更加简单。
 
 To save a lot of typing, it is possible to import the entire std:: namespace with using namespace std, or to select individual names: using std::thread.
 
+为了减少繁琐的输入，我们可以使用 `using namespace std` 直接将 `std::`，或者可以使用单独的名字 `using std::thread`。
+
 C++ does have some keywords itself like this, class, throw, catch and reinterpret_cast that could collide with existing C code.
 
+C++ 也有一些自己的关键字，例如`this`,`class`,`throw`,`catch`和`reinterpret_cast`，这些也可以和已经存在的 C 代码产生冲突。
+
+
 ## Classes
+## 类
+
 An older name of C++ was ‘C with classes’, and consisted of a translator that converted this new C++ into plain C. Interestingly enough this translator itself was written in ‘C with classes’.
+
+C++ 有个曾用名，叫做“有类的C语言” （C with classes），同时它包含一个可以将 C++ 翻译为 C 的翻译器。有意思的是，这个翻译器就是使用“有类的C语言”编写的。
 
 Most advanced C projects already use classes almost exactly like C++. In its simplest form, a class is nothing more than a struct with some calling conventions. (Inheritance & virtual functions complicate the picture, and these optional techniques will be discussed in part 3).
 
+很多高级的 C 语言项目都已经在使用类了，几乎和 C++ 完全一样。对于一个类来讲，其最简单的形式其实就是一个结构体外加一些调用的规则（继承和虚函数使其变得更加复杂，这些非必须的技术我们会在第三篇文章中讨论）。
+
 Typical modern C code will define a struct that describes something and then have a bunch of functions that accept a pointer to that struct as the first parameter:
+
+一个典型的现代 C 语言代码会定一个一个结构体来描述一个对象，并且定义一系列的函数，其第一个参数的类型就是该结构体的指针类型。
 
 ```cpp
 struct Circle
@@ -299,18 +321,3 @@ If you have any favorite things you’d like to see discussed or questions, plea
 Part 3 is now available.
 
 NOTE: If you like this stuff, come work with me over at PowerDNS - aspiring C++ programmers welcome!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
