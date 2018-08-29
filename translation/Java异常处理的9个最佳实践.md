@@ -1,3 +1,9 @@
+---
+translator: http://www.jobbole.com/members/Marticles/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://dzone.com/articles/9-best-practices-to-handle-exceptions-in-java
+---
+
 # 9 Best Practices to Handle Exceptions in Java
 # Java异常处理的9个最佳实践
 
