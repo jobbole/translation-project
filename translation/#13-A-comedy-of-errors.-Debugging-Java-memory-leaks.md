@@ -1,3 +1,10 @@
+---
+translator: http://www.jobbole.com/members/yizhe/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://dzone.com/articles/leveraging-lambda-expressions-for-lazy-evaluation
+---
+
+
 # 13-A-comedy-of-errors-Debugging-Java-memory-leaks
 
 We all make errors, but some errors seem so ridiculous we wonder how anyone, let alone we ourselves, could have done such a thing. This is, of course, easy to notice only after the fact. Below, I describe a series of such errors which we recently made in one of our applications. What makes it interesting is that initial symptoms indicated a completely different kind of problem than the one actually present.
