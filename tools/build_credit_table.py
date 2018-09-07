@@ -19,7 +19,7 @@ IMAGE_STYLE = "width='30px'"
 IMAGE_SIZE = 30
 CONTRIBUTOR_IMAGE_STYLE = "width='50px'"
 CONTRIBUTOR_IMAGE_SIZE = 50
-COL_NUM = 6
+COL_NUM = 8
 
 TRANS = 1
 REVIEW = 2
@@ -78,8 +78,9 @@ def get_reviewer_in_charge(pr):
     for comment in pr.get_issue_comments():
         if u"认领校对" in comment.body:
             reviewer_in_charge = comment.user
+        else:
+            reviewer_in_charge =  pr.get_reviews()[0].user
         return reviewer_in_charge
-
 
 
 def collcet_info():
@@ -159,6 +160,8 @@ def build_contributors_table(info):
     
     insert_table_line_flag = True
     for index,contributor in  enumerate(repo.get_contributors()):
+        print contributor
+        
         if index !=0 and  index % COL_NUM == 0:
             head_line = cell_line = "|"
             table += "\n"
@@ -190,7 +193,7 @@ def main():
     print u"# Credits"
     print build_credit_table(infos)
     print u'##  Contributors'
-    print build_contributors_table(infos)
+    #print build_contributors_table(infos)
 
 
 if __name__ == '__main__':
