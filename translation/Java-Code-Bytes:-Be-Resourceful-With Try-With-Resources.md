@@ -1,3 +1,9 @@
+---
+translator: http://www.jobbole.com/members/pu_zhe/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://dzone.com/articles/java-code-bytes-be-resourceful-with-try-with-resou
+---
+
 # Java Code Bytes: Be Resourceful With Try-With-Resources
 # Java 代码字节：足智多谋的 Try-With-Resources 
 
