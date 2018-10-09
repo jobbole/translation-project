@@ -1,7 +1,7 @@
 ---
-editor: iython
-published: false
-title: 通过信鸽来解释HTTPS
+translator: http://www.jobbole.com/members/q3198108035/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://medium.freecodecamp.org/https-explained-with-carrier-pigeons-7029d2193351
 ---
 
 # **HTTPS explained with carrier pigeons**
