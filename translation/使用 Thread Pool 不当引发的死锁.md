@@ -1,5 +1,8 @@
-原文链接：https://dzone.com/articles/thread-pool-self-induced-deadlocks
-
+---
+translator: http://www.jobbole.com/members/snowhere/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://dzone.com/articles/thread-pool-self-induced-deadlocks
+---
 # Thread Pool Self-Induced Deadlocks
 # 使用 Thread Pool 不当引发的死锁
 
