@@ -1,3 +1,9 @@
+---
+translator: http://www.jobbole.com/members/q3057027161/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://medium.com/@CanHasCommunism/understanding-compilers-for-humans-ba970e045877
+---
+
 # Understanding Compilers — For Humans (Version 2)
 # 人人都能读懂的编译器原理
 How Programming Languages Work
