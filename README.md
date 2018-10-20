@@ -21,7 +21,7 @@
 [![](https://img.shields.io/badge/4.-待翻译文章-blue.svg?longCache=true&style=popout)](https://github.com/jobbole/translation-project/issues?q=is%3Aopen+is%3Aissue+label%3A%22B1-To+do%22)
 [![](https://img.shields.io/badge/5.-waffle看板-blue.svg?longCache=true&style=popout)](https://waffle.io/jobbole/translation-warehouse)
 [![](https://img.shields.io/badge/6.-问题反馈-blue.svg?longCache=true&style=popout)](https://github.com/jobbole/translation-playground)
-
+[![](https://img.shields.io/badge/7.-Gitter-green.svg?longCache=true&style=popout)](https://gitter.im/translation-project/Lobby)
 
 ##  Contributors
 |译者|事件|总积分|
