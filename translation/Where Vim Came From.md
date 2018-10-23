@@ -1,3 +1,9 @@
+---
+translator: http://www.jobbole.com/members/wx1763043264/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://twobithistory.org/2018/08/05/where-vim-came-from.html
+---
+
 # Where Vim Came From
 
 # Vim 的起源
