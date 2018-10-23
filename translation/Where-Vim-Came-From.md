@@ -156,7 +156,7 @@ Vim 是如何变得如此成功的？显然，人们喜欢 Vim 所提供的特�
 
 *If you enjoyed this post, more like it come out every two weeks! Follow@TwoBitHistory on Twitter or subscribe to the RSS feed to make sure you know when a new post is out.*
 
-*@TwoBitHistory 每两周更新一次类似文章，如果你喜欢本文请在 Twitter 上关注或者订阅 RSS，以便及时知晓更新发布。*
+*@TwoBitHistory 每两周更新一次类似文章，如果你喜欢本文请在 Twitter 上关注或者订阅 RSS，以便及时知晓更新发布。伯乐在线已获授权同步翻译中文版，敬请关注*
 
 1. Butler Lampson, “Systems,” Butler Lampson, accessed August 5, 2018, <http://bwlampson.site/Systems.htm>. [↩](https://twobithistory.org/2018/08/05/where-vim-came-from.html#fnref:1)
 2. Dennis Ritchie, “An Incomplete History of the QED Editor,” accessed August 5, 2018, <https://www.bell-labs.com/usr/dmr/www/qed.html>. [↩](https://twobithistory.org/2018/08/05/where-vim-came-from.html#fnref:2)
