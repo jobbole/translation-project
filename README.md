@@ -1,7 +1,6 @@
 # 伯乐在线翻译组[![](https://img.shields.io/badge/网站-伯乐在线-blue.svg?longCache=true&style=plastic)](http://www.jobbole.com/)[![](https://img.shields.io/badge/weibo-@伯乐在线-blue.svg?longCache=true&style=plastic)](https://weibo.com/jobbole)
 
 
-
 ## 关于我们 
 
 伯乐翻译组([原版地址](http://fanyi.jobbole.com/))由数百名译者组成，立志翻译传播优秀的外文文章，为国内的IT/互联网同行带来有价值的内容。
@@ -35,9 +34,6 @@
 | <img alt="kele1997" src="https://avatars2.githubusercontent.com/u/24707678?v=4&s=30" width='30px'>[kele1997](https://github.com/kele1997) |[#35 non obvious possibilities of python syntax 鲜为人知的python语法](https://github.com/jobbole/translation-project/pull/56) : 翻译  +50<br>[#21 MODERN C++ FOR C PROGRAMMERS-PART-1](https://github.com/jobbole/translation-project/pull/70) : 翻译  +50<br>[#22 modern c++ for c programmers part 2.md](https://github.com/jobbole/translation-project/pull/74) : 校对  +50<br>[#23 MODERN C++ FOR C PROGRAMMERS PART 3](https://github.com/jobbole/translation-project/pull/78) : 翻译  +50<br>[#42-MODERN-C++-FOR-C-PROGRAMMERS-PART-5](https://github.com/jobbole/translation-project/pull/85) : 翻译  +50<br>[#11-Understanding Compilers — For Humans](https://github.com/jobbole/translation-project/pull/101) : 翻译  +50<br> | 300| 
 | <img alt="Marticles" src="https://avatars3.githubusercontent.com/u/37302483?v=4&s=30" width='30px'>[Marticles](https://github.com/Marticles) |[#29 9 best practices to handle exceptions in java](https://github.com/jobbole/translation-project/pull/76) : 翻译  +50<br> | 50| 
 | <img alt="Snowhere" src="https://avatars1.githubusercontent.com/u/5283862?v=4&s=30" width='30px'>[Snowhere](https://github.com/Snowhere) |[#54 java面试 投行的15个多线程和并发面试题](https://github.com/jobbole/translation-project/pull/72) : 翻译  +50<br>[#90 使用 Thread Pool 不当引发的死锁](https://github.com/jobbole/translation-project/pull/106) : 翻译  +50<br> | 100| 
-
-
-
 
 ## Copyright
 版权声明：伯乐在线翻译组翻译的译文仅用于学习、研究和交流。版权归伯乐在线、文章作者和译者所有。译文将首发于伯乐在线，转载前请联系译者或管理员获取授权，并在文章开头明显位置注明英文原文、伯乐在线译文链接、译者、校对者，违者必究。
