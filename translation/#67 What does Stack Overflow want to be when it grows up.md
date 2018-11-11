@@ -1,3 +1,8 @@
+---
+translator: http://www.jobbole.com/members/wx1905494155/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://blog.codinghorror.com/what-does-stack-overflow-want-to-be-when-it-grows-up/
+---
 
 # What does Stack Overflow want to be when it grows up?
 # Stack Overflow长大后想成为什么？
