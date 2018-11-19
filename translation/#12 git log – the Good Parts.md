@@ -1,3 +1,9 @@
+---
+translator: http://www.jobbole.com/members/hearingdog/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://zwischenzugs.com/2018/03/26/git-log-the-good-parts/
+---
+
 # git log – the Good Parts
 
 # 巧用 git log
@@ -188,7 +194,7 @@ The blue line takes you to one parent of the bf36cf5 merge (what’s the commit 
 
 It’s worth taking a bit of time to figure out what’s going on here, as it will pay dividends in a crisis later…
 
-值得花些时间来弄清楚这里发生的事情，因为这里欠的债以后也是要还的……
+这些内容值得你花时间搞清楚，日后遇到棘手问题的时候，你会感到庆幸的。
 
 ## `--simplify-by-decoration`
 
