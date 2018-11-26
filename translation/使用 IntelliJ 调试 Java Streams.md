@@ -1,3 +1,9 @@
+---
+translator: http://www.jobbole.com/members/snowhere/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via:https://www.javacodegeeks.com/2018/09/debugging-java-streams-with-intellij.html
+---
+
 # 使用 IntelliJ 调试 Java Streams
 # Debugging Java Streams with IntelliJ
 [原文链接](https://www.javacodegeeks.com/2018/09/debugging-java-streams-with-intellij.html)
