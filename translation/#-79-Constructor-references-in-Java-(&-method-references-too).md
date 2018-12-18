@@ -1,3 +1,9 @@
+---
+translator: http://www.jobbole.com/members/wx3433627156/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://jaxenter.com/constructor-references-java-148670.html
+---
+
 ## Constructor references in Java (& method references too)（Java 中的构造函数引用和方法引用）
 
 > 转译自：https://jaxenter.com/constructor-references-java-148670.html
