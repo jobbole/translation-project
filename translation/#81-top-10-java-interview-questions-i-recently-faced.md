@@ -1,3 +1,9 @@
+---
+translator: http://www.jobbole.com/members/q2451432615/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://dzone.com/articles/top-10-java-interview-questions-that-i-recently-fa
+---
+
 by Zoltan Raffai     ·  Aug. 27, 18 · Java Zone · Presentation     
 
 Recently, I participate in a few Java-based interviews to keep me fresh. Suddenly, I had an idea that I would like to share my experiences with you all. I hope I can help by sharing the top 10 Java interview questions that I faced in the recent months.
