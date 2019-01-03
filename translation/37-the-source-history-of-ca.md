@@ -1,7 +1,7 @@
 ---
 translator: http://www.jobbole.com/members/wx1905494155/
 reviewer: http://www.jobbole.com/members/hanxiaomax/
-via:https://twobithistory.org/2018/11/12/cat.html
+via: https://twobithistory.org/2018/11/12/cat.html
 ---
 
 
