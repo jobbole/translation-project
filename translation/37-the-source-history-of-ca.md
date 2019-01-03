@@ -1,3 +1,10 @@
+---
+translator: http://www.jobbole.com/members/wx1905494155/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via:https://twobithistory.org/2018/11/12/cat.html
+---
+
+
 # The Source History of Cat
 # cat命令的源码进化史
 
@@ -7,7 +14,7 @@ I once had a debate with members of my extended family about whether a computer 
 
 I knew that my aunt and cousin were wrong and decided to major in computer science. (Sorry, aunt and cousin!) It is easy to see why the average person might believe that a field like computer science, or a profession like software engineering, completely reinvents itself every few years. We had personal computers, then the web, then phones, then machine learning… technology is always changing, so surely all the underlying principles and techniques change too. Of course, the amazing thing is how little actually changes. Most people, I’m sure, would be stunned to know just how old some of the important software on their computer really is. I’m not talking about flashy application software, admittedly—my copy of Firefox, the program I probably use the most on my computer, is not even two weeks old. But, if you pull up the manual page for something like grep, you will see that it has not been updated since 2010 (at least on MacOS). And the original version of `grep` was written in 1974, which in the computing world was back when dinosaurs roamed Silicon Valley. People (and programs) still depend on `grep` every day.
 
-我并不相信他们的理论，并且选择了主修计算机专业（抱歉了姑姑和表哥！）其实不难看出，为什么常人会认为计算机科学，或者软件工程这样的专业，每几年就会更新换代。先是诞生了私人计算机，然后是网络，手机，机器学习……科技永远在变化，那么其潜在的技术原理当然也在变化了。当然，最让人惊讶的是，这些基础技术原理，其实基本没变。我相信大部分人要是知道他们计算机中重要软件到底有多老，肯定会震惊。我并不是说软件的表面，毕竟我自己用的最多的火狐浏览器，两周前才更新过。但是如果你打开帮助手册查看`grep`之类的工具，你会发现它的上一次更新还是在2010年（至少Mac系统是这样）。`grep`的初代诞生于1974年，那时候的计算机时代好比侏罗纪。人们（以及程序）每天都依附于`grep`。
+我并不相信他们的理论，并且选择了主修计算机专业（抱歉了姑姑和表哥！）其实不难看出，为什么常人会认为计算机科学，或者软件工程这样的专业，每几年就会更新换代。先是诞生了私人计算机，然后是网络，手机，机器学习……科技永远在变化，那么其潜在的技术原理当然也在变化了。当然，最让人惊讶的是，这些基础技术原理，其实基本没变。我相信大部分人要是知道他们计算机中重要软件到底有多老，肯定会震惊。我并不是说软件的表面，毕竟我自己用的最多的火狐浏览器，两周前才更新过。但是如果你打开帮助手册查看`grep`之类的工具，你会发现它的上一次更新还是在2010年（至少Mac系统是这样）。`grep`的初代诞生于1974年，那时候的计算机时代好比侏罗纪。现如今，人们（以及程序）在工作中仍然要依赖grep做很多事情
 
 My aunt and cousin thought of computer technology as a series of increasingly elaborate sand castles supplanting one another after each high tide clears the beach. The reality, at least in many areas, is that we steadily accumulate programs that have solved problems. We might have to occasionally modify these programs to avoid software rot, but otherwise they can be left alone. grep is a simple program that solves a still-relevant problem, so it survives. Most application programming is done at a very high level, atop a pyramid of much older code solving much older problems. The ideas and concepts of 30 or 40 years ago, far from being obsolete today, have in many cases been embodied in software that you can still find installed on your laptop.
 
@@ -30,11 +37,11 @@ Ken Thompson and Dennis Ritchie began writing Unix on a PDP 7. This was in 1969,
 
 The first implementation of cat is thus in PDP 7 assembly. I’ve added comments that try to explain what each instruction is doing, but the program is still difficult to follow unless you understand some of the extensions Thompson made while writing his assembler. There are two important ones. First, the ;character can be used to separate multiple statements on the same line. It appears that this was used most often to put system call arguments on the same line as the sys instruction. Second, Thompson added support for “temporary labels” using the digits 0 through 9. These are labels that can be reused throughout a program, thus being, according to the Unix Programmer’s Manual, “less taxing both on the imagination of the programmer and on the symbol space of the assembler.” From any given instruction, you can refer to the next or most recent temporary label n using nf and nb respectively. For example, if you have some code in a block labeled 1:, you can jump back to that block from further down by using the instruction jmp 1b. (But you cannot jump forward to that block from above without using jmp 1f instead.)
 
-`cat`的初代实现使用了PDP 7汇编语言。我有添加一些标注来解释每行命令，但是除非你明白Thompson编写汇编编译器的一些扩展，不然这个程序还是很难理解。这里有两个重要的点。第一，字符`;`可以被用于分隔同一行的声明语句。根据sys指令的描述，`;`通常被用于在同一行使用系统调用参数。第二，Thompson添加了数字0-9用于支持“暂存标记”。这些标记可以被整个程序重用，这就像Unix编程手册所描述的，“对于程序员思维和汇编语言字符空间的缩减优化”。从手册中，你可以使用`nf`来表示下一个标记`n`;用`nb`来表示上一个标记`n`。举个例子，如果你有个标记为`1:`的代码块，你可以从相距很远的下方代码中使用`jmp 1b`来往上跳回标记代码。(但是你不能往下跳到标记代码，除非你使用`jup 1f`。)
+`cat`的初代实现使用了PDP 7汇编语言。我有添加一些注释来解释每行命令，但是除非你明白Thompson编写汇编编译器的一些扩展，不然这个程序还是很难理解。这里有两个重要的点。第一，字符`;`可以被用于分隔同一行的声明语句。根据sys指令的描述，`;`通常被用于在同一行使用系统调用参数。第二，Thompson添加了数字0-9用于支持“暂存标记”。这些标记可以被整个程序重用，这就像Unix编程手册所描述的，“对于程序员思维和汇编语言字符空间的缩减优化”。从手册中，你可以使用`nf`来表示下一个标记`n`;用`nb`来表示上一个标记`n`。举个例子，如果你有个标记为`1:`的代码块，你可以从相距很远的下方代码中使用`jmp 1b`来往上跳回标记代码。(但是你不能往下跳到标记代码，除非你使用`jmp 1f`。)
 
 The most interesting thing about this first version of `cat` is that it contains two names we should recognize. There is a block of instructions labeled `getc`and a block of instructions labeled `putc`, demonstrating that these names are older than the C standard library. The first version of `cat` actually contained implementations of both functions. The implementations buffered input so that reads and writes were not done a character at a time.
 
-关于初代`cat`最有意思的是，它包含了两个我们熟知的名字。他们分别是一个标记为`getc`，和一个标记为`putc`的代码块，这表示这俩名字要比标准C语言库都要历史久远。初代`cat`实际上包含了这两个方法的实现。这样的实现方式使得输入字符可以被写入缓冲区，也就是说，读和写不需要以单个字符为单位完成。
+关于初代`cat`最有意思的是，它包含了两个我们熟知的名字，分别是一个标记为是一个标记为`getc`，和一个标记为`putc`的代码块，这表示这俩名字要比标准C语言库都要历史久远。初代`cat`实际上包含了这两个方法的实现。这样的实现方式使得输入字符可以被写入缓冲区，也就是说，读和写不需要以单个字符为单位完成。
 
 The first version of `cat` did not last long. Ken Thompson and Dennis Ritchie were able to persuade Bell Labs to buy them a PDP 11 so that they could continue to expand and improve Unix. The PDP 11 had a different instruction set, so `cat` had to be rewritten. I’ve marked up this second version of `cat`with comments as well. It uses new assembler mnemonics for the new instruction set and takes advantage of the PDP 11’s various addressing modes. (If you are confused by the parentheses and dollar signs in the source code, those are used to indicate different addressing modes.) But it also leverages the `;` character and temporary labels just like the first version of `cat`, meaning that these features must have been retained when `as` was adapted for the PDP 11.
 
@@ -103,7 +110,7 @@ I asked Fall how he felt about having written the `cat` implementation now used 
 
 In the grand scheme of things, computers are not an old invention. We’re used to hundred-year-old photographs or even hundred-year-old camera footage. But computer programs are in a different category—they’re high-tech and new. At least, they are now. As the computing industry matures, will we someday find ourselves using programs that approach the hundred-year-old mark?
 
-纵观历史上各种伟大的发明，计算机的历史并没有很久。我们适应了有着百年历史的照片甚至是照相机镜头。但是计算机软件是另外一个类别-他们富含高新科技。至少现在的软件是这样。随着计算机产业日渐成熟，我们会不会有一天发现，我们在使用有着百年历史的软件呢？
+纵观历史上各种伟大的发明，计算机的历史并没有很久。我们仍然在使用有着百年历史的照片和胶卷。但是计算机软件是另外一个类别——目前仍属于高新科技。至少现在的软件是这样。随着计算机产业日渐成熟，我们会不会有一天发现，我们在使用有着百年历史的软件呢？
 
 Computer hardware will presumably change enough that we won’t be able to take an executable compiled today and run it on hardware a century from now. Perhaps advances in programming language design will also mean that nobody will understand C in the future and `cat` will have long since been rewritten in another language. (Though C has already been around for fifty years, and it doesn’t look like it is about to be replaced any time soon.) But barring all that, why not just keep using the `cat` we have forever?
 
