@@ -1,3 +1,9 @@
+---
+translator: http://www.jobbole.com/members/wx1763043264/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: http://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/
+---
+
 # Asterisks in Python: what they are and how to use them
 
 # Python 中星号的本质及其使用方式
