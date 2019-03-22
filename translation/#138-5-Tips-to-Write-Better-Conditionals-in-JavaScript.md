@@ -1,3 +1,10 @@
+---
+translator: http://www.jobbole.com/members/wx3433627156/
+reviewer: http://www.jobbole.com/members/hanxiaomax
+via: https://scotch.io/tutorials/5-tips-to-write-better-conditionals-in-javascript
+---
+
+
 ## 5 Tips to Write Better Conditionals in JavaScript（优化 JavaScript 条件语句的5个技巧）
 
 > 转译自：https://scotch.io/tutorials/5-tips-to-write-better-conditionals-in-javascript
