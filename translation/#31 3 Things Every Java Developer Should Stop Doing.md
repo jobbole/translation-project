@@ -1,6 +1,14 @@
-## 3 Things Every Java Developer Should Stop Doing（Java 开发者应该停止的 3 种不良习惯）
+---
+translator: http://www.jobbole.com/members/wx3433627156/
+reviewer: https://github.com/AtlantisLee
+via: https://dzone.com/articles/3-things-every-java-developer-should-stop-doing
+---
+
+
+## 3 Things Every Java Developer Should Stop Doing（Java 开发者应该改掉的 3 种不良习惯）
 
 > 转译自：https://dzone.com/articles/3-things-every-java-developer-should-stop-doing
+> 校对：[AtlantisLee](https://github.com/AtlantisLee)
 
 > Looking for a few bad habits to drop? Let's take a look at null, functional programming, and getters and setters to see how you can improve your coding.
 
