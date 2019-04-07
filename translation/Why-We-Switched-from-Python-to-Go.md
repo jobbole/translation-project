@@ -1,3 +1,9 @@
+---
+translator: http://www.jobbole.com/members/q3198108035/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://codeburst.io/why-we-switched-from-python-to-go-60c8fd2cb9a9
+---
+
 # GetStream.io: Why We Switched from Python to Go
 # GetStream.io：我们用 Go 替换 Python 的原因
 
@@ -44,11 +50,12 @@ Python 是一门很棒的语言，但是在诸如序列化/反序列化、排序
 
 Have a look at this little snippet of Go code from the [How I Start Go tutorial](http://howistart.org/posts/go/1/). (This is a great tutorial and a good starting point to pick up a bit of Go.)
 
-看看这些来自于 [How I Start Go tutorial](http://howistart.org/posts/go/1/) 的 Go 的代码片段。（这是一个很棒的教程，也是一个很好的学习 Go 语言的起点。）
+看看这些来自于 [How I Start Go tutorial](http://howistart.org/posts/go/1/) 的 Go 的代码片段。（这是一个很棒的教程，也是一个学习 Go 语言的一个很好的起点。）
+
 
 If you’re new to Go, there’s not much that will surprise you when reading that little code snippet. It showcases multiple assignments, data structures, pointers, formatting and a built-in HTTP library.
 
-如果你是 Go 语言的新手，在阅读那些代码片段时，没有什么会让你大吃一惊。它只是多个赋值、数据结构、指针、格式化和内置的 HTTP 库。
+如果你是 Go 语言新手，在阅读那些代码片段时，没有什么会让你大吃一惊。这些代码段仅仅演示了go语言的一些特性，例如赋值、数据结构、指针、格式化和内置的 HTTP 库。
 
 When I first started programming I always loved using Python’s more advanced features. Python allows you to get pretty creative with the code you’re writing. For instance, you can:
 
@@ -90,7 +97,8 @@ Note: How “easy” it is really depends on your use case, of course. If you wa
 
 As a language, Go tries to keep things simple. It doesn’t introduce many new concepts. The focus is on creating a simple language that is incredibly fast and easy to work with. The only area where it does get innovative is goroutines and channels. (To be 100% correct the concept of [CSP](https://en.wikipedia.org/wiki/Communicating_sequential_processes) started in 1977, so this innovation is more of a new approach to an old idea.) Goroutines are Go’s lightweight approach to threading, and channels are the preferred way to communicate between goroutines.
 
-作为一门编程语言，Go 试图让事情变得简单。它没有引入很多的新概念。重点是创造的这门编程语言的性能要难以置信的快，并且容易上手。goroutines 和管道是 Go 仅有的创新点。（如果要让 [CSP](https://en.wikipedia.org/wiki/Communicating_sequential_processes) 这个1977年提出来的概念完全准确，那不得不说，这个创新更像是一种对旧概念的新的实现方案。）Goroutines 是 Go 对线程的轻量级实现，而管道是让 goroutines 之间相互通信的绝佳的方式。
+作为一门编程语言，Go 试图让事情变得简单。它没有引入很多的新概念。重点是创造的这门编程语言的性能要难以置信的快，并且容易上手。goroutines 和管道是 Go 仅有的创新点。（准确的讲，[CSP](https://en.wikipedia.org/wiki/Communicating_sequential_processes) 这个概念1977年就被提出了，因此这个创新更准确的说法是——旧点子的新实现）Goroutines 是 Go 对线程的轻量级实现，而管道是让 goroutines 之间相互通信的绝佳的方式。
+
 
 Goroutines are very cheap to create and only take a few KBs of additional memory. Because Goroutines are so light, it is possible to have hundreds or even thousands of them running at the same time.
 
@@ -104,7 +112,7 @@ You can communicate between goroutines using channels. The Go runtime handles al
 
 Go’s approach to concurrency is very easy to work with. It’s an interesting approach compared to Node where the developer has to pay close attention to how asynchronous code is handled.
 
-Go 的并发方法非常容易使用。和 Node 相比，这是一个有意思的方法。如果使用 Node 写并发方法，开发者必须密切关注异步代码的处理方式。
+和 Node 相比，Go 的并发处理更加容易。如果使用 Node 写并发方法，开发者必须密切关注异步代码的处理方式。
 
 Another great aspect of concurrency in Go is the [race detector](https://blog.golang.org/race-detector). This makes it easy to figure out if there are any race conditions within your asynchronous code.
 
@@ -132,7 +140,7 @@ Here are a few good resources to get started with Go and channels:
 
 Our largest micro service written in Go currently takes 6 seconds to compile. Go’s fast compile times are a major productivity win compared to languages like Java and C++ which are famous for sluggish compilation speed. I like sword fighting, but it’s even nicer to get things done while I still remember what the code is supposed to do:
 
-目前，我们使用 Go 编写的最大微服务只需 6 秒钟就能完成编译。与 Java 和 C++ 这样以低速编译速度著称的语言相比，Go 的快速编译能力是一场生产力上的大胜。我喜欢击剑（下图指利用编译的时间暂时脱离工作，从事自己的爱好，暗示编译时间慢），但是，当我还记得代码是做什么事情的时候，代码就已经完成编译了，那自然是最好的事了：
+目前，我们使用 Go 编写的最大微服务只需 6 秒钟就能完成编译。与 Java 和 C++ 这样以低速编译速度著称的语言相比，Go 的快速编译能力是一场生产力上的大胜。我也喜欢趁着代码编译的时间去放松一下，但是，如果能在我还记得代码是做什么事情的时候就完成编译，岂不更好？况且本来就应该是这样的才对。
 
 ![](https://cdn-images-1.medium.com/max/1600/1*N5NJvvxy-D9TrSwXGaMsCQ.png)
 
@@ -142,7 +150,8 @@ Our largest micro service written in Go currently takes 6 seconds to compile. Go
 
 First of all, let’s start with the obvious: there are not as many Go developers compared to older languages like C++ and Java. According to [StackOverflow](https://insights.stackoverflow.com/survey/2017), 38% of developers know Java, 19.3% know C++ and only 4.6% know Go. [GitHub data](https://madnight.github.io/githut/) shows a [similar trend](http://githut.info/): Go is more widely used than languages such as Erlang, Scala and Elixir, but less popular than Java and C++.
 
-首先，让我们认清一个现实：与旧式的像 C++ 和 Java 这样的编程语言相比，Go 开发人员的数量是不占上风的。根据 [StackOverflow](https://insights.stackoverflow.com/survey/2017) 的数据，38% 的开发人员熟悉 Java，19.3% 的开发人员熟悉 C++，仅仅 4.6% 的开发人员熟悉 Go。[GitHub 上的数据](https://madnight.github.io/githut/)显示一个[相似的趋势](https://madnight.github.io/githut/)： Go 用得比 Erlang、Scala 以及 Elixir 广泛，但是不及 Java 和 C++。
+首先，让我们认清一个现实：与 C++ 和 Java 这样的老牌编程语言相比，Go 开发人员的数量是不占上风的。根据 [StackOverflow](https://insights.stackoverflow.com/survey/2017) 的数据，38% 的开发人员熟悉 Java，19.3% 的开发人员熟悉 C++，仅仅 4.6% 的开发人员熟悉 Go。[GitHub 上的数据](https://madnight.github.io/githut/)显示一个[相似的趋势](https://madnight.github.io/githut/)： Go 用得比 Erlang、Scala 以及 Elixir 广泛，但是不及 Java 和 C++。
+
 
 Fortunately, Go is a very simple and easy to learn language. It provides the basic features you need and nothing else. The new concepts it introduces are the “[defer](https://blog.golang.org/defer-panic-and-recover)” statement and built-in management of concurrency with “go routines” and channels. (For the purists: Go isn’t the first language to implement these concepts, just the first to make them popular.) Any Python, Elixir, C++, Scala or Java dev that joins a team can be effective at Go within a month because of its simplicity.
 
