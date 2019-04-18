@@ -5,7 +5,7 @@ via: https://towardsdatascience.com/10-common-software-architectural-patterns-in
 ---
 
 # 10 Common Software Architectural Patterns in a nutshell
-# 简述10大通用软件架构模式
+# 简述10大常用软件架构模式
 
 Ever wondered how large enterprise scale systems are designed? Before major software development starts, we have to choose a suitable architecture that will provide us with the desired functionality and quality attributes. Hence, we should understand different architectures, before applying them to our design.
 
