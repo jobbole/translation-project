@@ -1,3 +1,9 @@
+---
+translator: http://www.jobbole.com/members/171272817/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013?source=linkShare-2f2dd2d6cf47-1536124134
+---
+
 # 10 Common Software Architectural Patterns in a nutshell
 # 简述10大通用软件架构模式
 
