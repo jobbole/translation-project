@@ -1,3 +1,11 @@
+---
+translator: http://www.jobbole.com/members/q3057027161/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://gist.github.com/Zearin/2f40b7b9cfc51132851a
+---
+
+
+
 *__NOTE:__ This is [a question I found on StackOverflow]() which I’ve archived here, because the answer is so effing phenomenal.*  
 *__注意：__ 这是一篇 StackOverflow 上的问题回答，因为这个回答很棒，所以我把它存档了* 
 
