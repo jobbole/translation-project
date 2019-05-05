@@ -1,5 +1,5 @@
 ---
-translator: http://www.jobbole.com/members/wx3433627156/
+translator: http://www.jobbole.com/members/zxdefying/
 reviewer: http://www.jobbole.com/members/hanxiaomax/
 via: https://towardsdatascience.com/speed-up-your-algorithms-part-2-numba-293e554c5cc1
 ---
