@@ -1,7 +1,7 @@
 ---
 translator: http://www.jobbole.com/members/wx3433627156/
 reviewer: http://www.jobbole.com/members/hanxiaomax/
-via: https://jaxenter.com/constructor-references-java-148670.html
+via: https://towardsdatascience.com/speed-up-your-algorithms-part-2-numba-293e554c5cc1
 ---
 
 ## Constructor references in Java (& method references too)（Java 中的构造函数引用和方法引用）
