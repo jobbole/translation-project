@@ -1,7 +1,13 @@
-# Notes to Myself on Software Engineering
+---
+translator: http://www.jobbole.com/members/Jessie-alpha/
+reviewer: http://www.jobbole.com/members/hanxiaomax/
+via: https://medium.com/@francois.chollet/notes-to-myself-on-software-engineering-c890f16f4e4d
+---
 
-## A laundry list of personal reminders
-## 个人提醒细目清单
+
+# Notes to Myself on Software Engineering
+# 写给自己的软件工程笔记
+
 
 ## On the Development Process
 ## 关于开发过程
@@ -64,7 +70,10 @@
 
 3.Simple things should be simple, complex things should be possible. Don’t increase the cognitive load of common use cases for the sake of niche use cases, even minimally.
 
-3.简单的事情就是简单的，复杂的事情只是有可能。不要因为小众用例而增加常规用例的认知负担，即使是最低程度地。
+3.“Simple things should be simple ― Alan Kay”。不要因为小众用例而增加常规用例的认知负担，即使是最低程度地增加也不可以。
+
+![](https://izquotes.com/quotes-pictures/quote-simple-things-should-be-simple-complex-things-should-be-possible-alan-kay-242740.jpg)
+
 
 4.If the cognitive load of a workflow is sufficiently low, it should be possible for a user to go through it from memory (without looking up a tutorial or documentation) after having done it once or twice.
 
