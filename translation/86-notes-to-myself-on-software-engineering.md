@@ -70,7 +70,7 @@ via: https://medium.com/@francois.chollet/notes-to-myself-on-software-engineerin
 
 3.Simple things should be simple, complex things should be possible. Don’t increase the cognitive load of common use cases for the sake of niche use cases, even minimally.
 
-3.“Simple things should be simple ― Alan Kay”。不要因为小众用例而增加常规用例的认知负担，即使是最低程度地增加也不可以。
+3.“Simple things should be simple,complex things should be possible ― Alan Kay”。不要因为小众用例而增加常规用例的认知负担，即使是最低程度地增加也不可以。
 
 ![](https://izquotes.com/quotes-pictures/quote-simple-things-should-be-simple-complex-things-should-be-possible-alan-kay-242740.jpg)
 
